@@ -1,6 +1,6 @@
 <h2><a href="https://leetcode.com/problems/first-bad-version">First Bad Version</a></h2> <img src='https://img.shields.io/badge/Difficulty-Easy-brightgreen' alt='Difficulty: Easy' /><hr><p>You are a product manager and currently leading a team to develop a new product. Unfortunately, the latest version of your product fails the quality check. Since each version is developed based on the previous version, all the versions after a bad version are also bad.
 
-mid calculations matters here as lp + hp can become larger than Java's maximum int value and can cause integer overflow which in turn will assign a wrong value to mid 
+MID CALCULATIONS MATTER HERE AS LP + HP CAN BECOME LARGER THAN JAVA'S MAXIMUM INT VALUE AND CAN CAUSE INTEGER OVERFLOW, WHICH IN TURN WILL ASSIGN A WRONG VALUE TO MID.
 </p>
 
 <p>Suppose you have <code>n</code> versions <code>[1, 2, ..., n]</code> and you want to find out the first bad one, which causes all the following ones to be bad.</p>
